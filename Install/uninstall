@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ ! -e /usr/bin/dinyad\-w ] || [ ! -e /usr/bin/dinyad ]
+then
+	echo Dinyad-W n\'est pas installé sur votre votre machine.
+else
+	if rm /usr/bin/dinyad-w && rm /usr/bin/dinyad
+	then
+		echo Dinyad-W est désinstallé avec succès.
+	else
+		echo Erreur de désinstallation.
+		echo Désinstaller en mode root.
+	fi
+fi

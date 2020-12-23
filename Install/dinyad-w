@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+if [ $# == 0 ]
+then
+	echo DINYA-W 
+	echo Auteur : Donatien Dinyad Yeto
+	echo Permet l\'affichage de texte d\'une façon cool sur console.
+	echo Utilisation : dinyad-w \[texte à afficher \].
+	echo Tapez dinyad-w --help pour de l\'aide.
+	echo ____________________________________________
+	./dinyad DINYAD-W 1.0
+	
+else
+	./dinyad $*
+fi

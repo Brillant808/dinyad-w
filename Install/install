@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ -e /usr/bin/dinyad\-w ] && [ -e /usr/bin/dinyad ]
+then
+	echo Dinyad-W est déjà installé sur votre votre machine.
+	echo Vous pouvez désinstaller d\'abord ce qui existait.
+else
+	if cp dinyad-w /usr/bin && cp dinyad /usr/bin && chmod 777 /usr/bin/dinyad-w  && chmod 777 /usr/bin/dinyad
+	then 
+		echo Dinyad-W est installé avec succès.
+		echo Merci :\)
+		echo Tapez dinyad-w pouvez  tester.
+	else
+		echo Erreur d\'installation.
+		echo Installer en mode root.
+	fi
+fi
+

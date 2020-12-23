@@ -26,7 +26,7 @@ Exemple
 dinyad-w Cool
 `
 
-Par defaut, les mots s'affichent sur différentes lignes. Utilesez des tirets comme séparateurs au lieu des espaces pour le corriger.
+Par defaut, les mots s'affichent sur différentes lignes. Utilisez des tirets comme séparateurs au lieu des espaces pour le corriger.
 
 Ex : `dinyad-w  Je-suis`
 

@@ -6,7 +6,7 @@ Auteur : Donatien Dinyad Yeto
 
 _____________________________________________
 
-Pour installer, positionnez-vous dans le dossier Insatll puis lancer :
+Pour installer, positionnez-vous dans le dossier Install puis lancer :
 
 bash 
 `
@@ -27,6 +27,7 @@ dinyad-w Cool
 `
 
 Par defaut, les mots s'affichent sur différentes lignes. Utilesez des tirets comme séparateurs au lieu des espaces pour le corriger.
+
 Ex : dinyad-w  Je-suis.
 
 
@@ -44,4 +45,5 @@ sudo ./uninstall
  `
 
 NB
+
 Si vous modifiez le fichier source et que après compilation vous vouslez réinstallation cette nouvelle version, remplacez le fichier dinyad de Install par celui nouvellement crée. 

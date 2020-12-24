@@ -9,8 +9,8 @@ then
 	echo Utilisation : dinyad-w \[texte à afficher \].
 	echo Tapez dinyad-w --help pour de l\'aide.
 	echo ____________________________________________
-	./dinyad DINYAD-W 1.0
+	cd /usr/bin && ./dinyad DINYAD-W 1.0
 	
 else
-	./dinyad $*
+	cd /usr/bin && ./dinyad $*
 fi

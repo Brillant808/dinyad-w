@@ -8,7 +8,7 @@ else
 	then 
 		echo Dinyad-W est installé avec succès.
 		echo Merci :\)
-		echo Tapez dinyad-w pouvez  tester.
+		echo Tapez dinyad-w pour tester.
 	else
 		echo Erreur d\'installation.
 		echo Installer en mode root.
